@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,44 +9,155 @@
     android:background="@drawable/onboarding_"
     android:orientation="vertical"
     >
-
-    <ImageView
-        android:id="@+id/rectangle_16"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="513dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="0dp"
-        android:contentDescription="rectangle_16"
-        android:src="@drawable/img_login" />
+        android:layout_height="506dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="-5dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_below="@id/login_text"
+        >
 
-    <View android:id="@+id/content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="279dp"
-        android:layout_width="358dp"
-        android:layout_height="95dp" >
+        <ImageView
+            android:id="@+id/rectangle_16"
+            android:layout_width="match_parent"
+            android:layout_height="513dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="rectangle_16"
+            android:src="@drawable/img_login" />
 
-        <TextView android:id="@+id/__p__sign_in"
+        <TextView
+            android:id="@+id/__p__sign_in"
+            android:layout_width="171dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginBottom="202dp"
             android:fontFamily="Arial"
-            android:textStyle="bold"
+            android:text="@string/SignIn"
+            android:textColor="@color/white"
             android:textSize="28sp"
-            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/__p__welcome_back_to_tunify__it_s_time_to_listen_to_the_music_you_want_and_enjoy_the_music_"
+            android:layout_width="345dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="279dp"
-            android:layout_width="158dp"
-            android:layout_height="62dp"
-            android:text="Sign In" />
-        <TextView android:id="@+id/__p__welcome_back_to_tunify__it_s_time_to_listen_to_the_music_you_want_and_enjoy_the_music_"
+
+            android:layout_marginBottom="149dp"
             android:fontFamily="Arial"
-            android:textSize="15sp"
-            android:textColor="@color/white"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="329dp"
-            android:layout_width="393.5dp"
-            android:layout_height="55.5dp"
             android:text="@string/Signin_1"
-            />
-    </View>
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="444dp"
+        android:background="@drawable/duongvien">
+
+        <RelativeLayout
+            android:id="@+id/input_text"
+            android:layout_width="343dp"
+            android:layout_height="47.98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginTop="40dp"
+            android:background="@drawable/input_text"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/email_addre"
+                android:layout_width="118dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/email_addre"
+                android:textAppearance="@style/email_addre"
+                android:translationY="-2.1sp" />
+
+            <TextView
+                android:id="@+id/gm_uit_edu_"
+                android:layout_width="174dp"
+                android:layout_height="11.07dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="24dp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/gm_uit_edu_"
+                android:textAppearance="@style/gm_uit_edu_"
+                android:translationY="-3.14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/input_text2"
+            android:layout_width="343dp"
+            android:layout_height="47.98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
 
 
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/input_text"
+            android:elevation="4dp">
 
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="118dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/password"
+                android:textAppearance="@style/password"
+                android:translationY="-2.1sp" />
+
+            <EditText
+                android:id="@+id/some_id"
+                android:layout_width="174dp"
+                android:layout_height="13.07dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="28dp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/some_id"
+                android:textAppearance="@style/some_id"
+                android:translationY="-3.14sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
 </RelativeLayout>
