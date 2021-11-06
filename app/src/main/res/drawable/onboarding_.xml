@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/onboarding_.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="385dp"
+    android:height="815dp"
+    android:viewportWidth="385"
+    android:viewportHeight="815"
+    >
+
+    <group>
+
+        <clip-path
+            android:pathData="M0 0H385V815H0V0Z"
+            />
+
+        <path
+            android:pathData="M0 0V815H385V0"
+            android:fillColor="#091227"
+            />
+
+    </group>
+
+</vector>

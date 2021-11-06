@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboarding_"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/onboarding_"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/rectangle_16"
+        android:layout_width="match_parent"
+        android:layout_height="513dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="rectangle_16"
+        android:src="@drawable/img_signup" />
+
+</RelativeLayout>

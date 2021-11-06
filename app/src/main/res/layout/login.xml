@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/onboarding_"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/rectangle_16"
+        android:layout_width="match_parent"
+        android:layout_height="513dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="rectangle_16"
+        android:src="@drawable/img_login" />
+
+    <View android:id="@+id/content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="279dp"
+        android:layout_width="358dp"
+        android:layout_height="95dp" >
+
+        <TextView android:id="@+id/__p__sign_in"
+            android:fontFamily="Arial"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="279dp"
+            android:layout_width="158dp"
+            android:layout_height="62dp"
+            android:text="Sign In" />
+        <TextView android:id="@+id/__p__welcome_back_to_tunify__it_s_time_to_listen_to_the_music_you_want_and_enjoy_the_music_"
+            android:fontFamily="Arial"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="329dp"
+            android:layout_width="393.5dp"
+            android:layout_height="55.5dp"
+            android:text="@string/Signin_1"
+            />
+    </View>
+
+
+
+</RelativeLayout>
