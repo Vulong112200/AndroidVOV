@@ -60,7 +60,7 @@
         </item>
 
     </style>
-    <style name="forgot_your">
+    <style name="input">
 
         <item name="android:textSize">
             13sp

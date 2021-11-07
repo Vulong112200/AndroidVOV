@@ -20,10 +20,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_below="@id/login_text"
         >
+
         <ImageView
             android:id="@+id/rectangle_16"
-            android:layout_width="match_parent"
-            android:layout_height="513dp"
+            android:layout_width="415dp"
+            android:layout_height="match_parent"
             android:layout_marginStart="2dp"
             android:layout_marginTop="0dp"
             android:contentDescription="rectangle_16"
@@ -31,7 +32,7 @@
 
 
         <ImageView
-            android:id="@+id/vector"
+            android:id="@+id/back"
             android:layout_width="22.32dp"
             android:layout_height="21.83dp"
             android:layout_alignParentTop="true"
@@ -76,12 +77,12 @@
 
     <RelativeLayout
         android:id="@+id/login_text"
-        android:layout_width="match_parent"
-        android:layout_height="342dp"
+        android:layout_width="wrap_content"
+        android:layout_height="315dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="444dp"
+        android:layout_marginTop="416dp"
         android:background="@drawable/duongvien">
 
         <RelativeLayout
@@ -183,7 +184,7 @@
             android:gravity="top"
             android:lineSpacingExtra="5sp"
             android:text="Forgot your password?"
-            android:textAppearance="@style/forgot_your"
+            android:textAppearance="@style/input"
             android:translationY="-2.28sp" />
 
         <Button
@@ -193,13 +194,41 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="62dp"
-            android:layout_marginEnd="50dp"
-            android:layout_marginBottom="26dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="55dp"
             android:background="@drawable/button_sign"
             android:clickable="true"
             android:text="Sign In"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="528dp" />
+
+        <TextView
+            android:id="@+id/you_have_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="250dp"
+            android:gravity="top"
+            android:lineSpacingExtra="5sp"
+            android:text="Don’t have account?"
+            android:textColor="@color/white"
+            android:translationY="-2.28sp" />
+
+        <TextView
+            android:id="@+id/text_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="250dp"
+            android:gravity="top"
+            android:lineSpacingExtra="5sp"
+            android:text="Sign Up"
+            android:textAppearance="@style/input"
+            android:translationY="-2.28sp" />
     </RelativeLayout>
 </RelativeLayout>
