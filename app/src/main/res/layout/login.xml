@@ -20,7 +20,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_below="@id/login_text"
         >
-
         <ImageView
             android:id="@+id/rectangle_16"
             android:layout_width="match_parent"
@@ -29,6 +28,19 @@
             android:layout_marginTop="0dp"
             android:contentDescription="rectangle_16"
             android:src="@drawable/img_login" />
+
+
+        <ImageView
+            android:id="@+id/vector"
+            android:layout_width="22.32dp"
+            android:layout_height="21.83dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="368dp"
+            android:contentDescription="vector"
+            android:src="@drawable/vector" />
 
         <TextView
             android:id="@+id/__p__sign_in"
@@ -143,14 +155,14 @@
                 android:textAppearance="@style/password"
                 android:translationY="-2.1sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/some_id"
                 android:layout_width="174dp"
-                android:layout_height="13.07dp"
+                android:layout_height="14.07dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="15dp"
-
+                android:textColor="@color/white"
                 android:layout_marginTop="28dp"
                 android:gravity="top"
                 android:lineSpacingExtra="6sp"
@@ -159,5 +171,35 @@
                 android:translationY="-3.14sp" />
 
         </RelativeLayout>
+
+        <TextView
+            android:id="@+id/forgot_your"
+            android:layout_width="148dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="179dp"
+            android:gravity="top"
+            android:lineSpacingExtra="5sp"
+            android:text="Forgot your password?"
+            android:textAppearance="@style/forgot_your"
+            android:translationY="-2.28sp" />
+
+        <Button
+            android:id="@+id/button_sign"
+            android:layout_width="298dp"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/button_sign"
+            android:clickable="true"
+            android:text="Sign In"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="528dp" />
     </RelativeLayout>
 </RelativeLayout>

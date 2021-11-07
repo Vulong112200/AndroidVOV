@@ -60,5 +60,20 @@
         </item>
 
     </style>
+    <style name="forgot_your">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.02
+        </item>
+
+        <item name="android:textColor">
+            #AB90FA
+        </item>
+
+    </style>
 
 </resources>
