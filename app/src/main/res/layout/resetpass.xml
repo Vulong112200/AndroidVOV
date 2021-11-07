@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reset_passw"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/backscreen"
+    >
+
+    <ImageView
+
+        android:id="@+id/vector"
+        android:layout_width="22dp"
+        android:layout_height="18.8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="365dp"
+        android:layout_marginBottom="692dp"
+        android:contentDescription="vector"
+        android:src="@drawable/vector" />
+
+    <TextView android:id="@+id/__p__reset_password"
+        android:fontFamily="Rubik"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="92dp"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:text="Reset password"
+        />
+
+    <TextView android:id="@+id/__p__enter_email_assocviated_with_your_account_and_we_ll_send_and_email_with_intructions_to_reset_your_password_"
+        android:fontFamily="Arial"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="141dp"
+        android:layout_width="337dp"
+        android:layout_height="45dp"
+        android:text="Enter email assocviated with your account and we’ll send and email with intructions to reset your password."
+        />
+
+    <RelativeLayout
+        android:id="@+id/input_text"
+        android:layout_width="343dp"
+        android:layout_height="47.98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+
+        android:layout_marginTop="206dp"
+        android:background="@drawable/input_text"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/email_addre"
+            android:layout_width="118dp"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginTop="3dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/email_addre"
+            android:textAppearance="@style/email_addre"
+            android:translationY="-2.1sp" />
+
+        <TextView
+            android:id="@+id/gm_uit_edu_"
+            android:layout_width="174dp"
+            android:layout_height="11.07dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginTop="24dp"
+            android:gravity="top"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/gm_uit_edu_"
+            android:textAppearance="@style/gm_uit_edu_"
+            android:translationY="-3.14sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_sign"
+        android:layout_width="333dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="408dp"
+        android:background="@drawable/button_sign"
+        android:clickable="true"
+        android:text="Send Email" />
+</RelativeLayout>

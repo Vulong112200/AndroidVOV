@@ -18,6 +18,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.login);
 
         TextView signup = (TextView) findViewById(R.id.text_signup);
+        TextView forgot = (TextView) findViewById(R.id.forgot_pass);
         ImageView back = (ImageView)  findViewById(R.id.back);
         Button signin = (Button) findViewById(R.id.button_sign);
 
@@ -36,6 +37,15 @@ public class Login extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        forgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Login.this, Resetpass.class);
+                startActivity(intent);
+            }
+        });
+
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
