@@ -2,7 +2,8 @@
     <string name="app_name">VOVMusic</string>
     <string name="SignIn">Sign In</string>
     <string name="Onboarding_1">Milions of Songs. Free on VOVMusic</string>
-    <string name="Signin_1">"Welcome back to Tunify, it's time to listen to the music you want and enjoy the music!"</string>
+    <string name="Signin_1">"Welcome back to VOVMusic, it's time to listen to the music you want and enjoy the music!"</string>
+    <string name="Signup_1">"Welcome to VOVMusic, which will make accompany your mood for music. Let’s create account now"</string>
     <string name="email_addre">Email address</string>
     <string name="gm_uit_edu_">18521224@gm.uit.edu.vn</string>
     <string name="password">Password</string>

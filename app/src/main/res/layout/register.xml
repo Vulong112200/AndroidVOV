@@ -1,23 +1,234 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/onboarding_"
+    android:id="@+id/login"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
     android:background="@drawable/onboarding_"
     android:orientation="vertical"
     >
-
-    <ImageView
-        android:id="@+id/rectangle_16"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="513dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="0dp"
-        android:contentDescription="rectangle_16"
-        android:src="@drawable/img_signup" />
+        android:layout_height="506dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="-5dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_below="@id/login_text"
+        >
 
+
+        <ImageView
+            android:id="@+id/rectangle_16"
+            android:layout_width="415dp"
+            android:layout_height="429dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="rectangle_16"
+            android:src="@drawable/img_signup" />
+
+        <ImageView
+            android:id="@+id/vector"
+            android:layout_width="22.32dp"
+            android:layout_height="21.83dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="368dp"
+            android:contentDescription="vector"
+            android:src="@drawable/vector" />
+
+        <TextView
+            android:id="@+id/__p__sign_in"
+            android:layout_width="171dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="191dp"
+            android:fontFamily="Arial"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/__p__welcome_back_to_tunify__it_s_time_to_listen_to_the_music_you_want_and_enjoy_the_music_"
+            android:layout_width="345dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginBottom="136dp"
+            android:fontFamily="Arial"
+            android:text="@string/Signup_1"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="396dp"
+        android:background="@drawable/duongvien">
+
+        <RelativeLayout
+            android:id="@+id/input_text3"
+            android:layout_width="343dp"
+            android:layout_height="47.98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginTop="25dp"
+            android:background="@drawable/input_text"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/email_addre3"
+                android:layout_width="118dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:lineSpacingExtra="4sp"
+                android:text="Full name"
+                android:textAppearance="@style/email_addre"
+                android:translationY="-2.1sp" />
+
+            <TextView
+                android:id="@+id/gm_uit_edu_2"
+                android:layout_width="174dp"
+                android:layout_height="11.07dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="24dp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="Kiều Oanh"
+                android:textAppearance="@style/gm_uit_edu_"
+                android:translationY="-3.14sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/input_text"
+            android:layout_width="343dp"
+            android:layout_height="47.98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginTop="90dp"
+            android:background="@drawable/input_text"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/email_addre"
+                android:layout_width="118dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/email_addre"
+                android:textAppearance="@style/email_addre"
+                android:translationY="-2.1sp" />
+
+            <TextView
+                android:id="@+id/gm_uit_edu_"
+                android:layout_width="174dp"
+                android:layout_height="11.07dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="24dp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/gm_uit_edu_"
+                android:textAppearance="@style/gm_uit_edu_"
+                android:translationY="-3.14sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/input_text2"
+            android:layout_width="343dp"
+            android:layout_height="47.98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/input_text"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="118dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/password"
+                android:textAppearance="@style/password"
+                android:translationY="-2.1sp" />
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="174dp"
+                android:layout_height="14.07dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="28dp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/some_id"
+                android:textAppearance="@style/some_id"
+                android:textColor="@color/white"
+                android:translationY="-3.14sp" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/button_sign"
+            android:layout_width="298dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/button_sign"
+            android:clickable="true"
+            android:text="Sign up"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="528dp" />
+
+
+
+
+    </RelativeLayout>
 </RelativeLayout>
