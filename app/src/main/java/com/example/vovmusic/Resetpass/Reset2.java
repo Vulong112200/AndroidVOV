@@ -31,5 +31,21 @@ public class Reset2 extends AppCompatActivity {
             }
         });
 
+
+        open.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Reset2.this, Login.class);
+                startActivity(intent);
+            }
+        });
+
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Reset2.this, Login.class);
+                startActivity(intent);
+            }
+        });
     }
 }
