@@ -2,16 +2,14 @@ package com.example.vovmusic.Resetpass;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.vovmusic.Resetpass.Reset;
+
 import com.example.vovmusic.Login;
-import com.example.vovmusic.MainActivity;
 import com.example.vovmusic.R;
 
 public class Reset2 extends AppCompatActivity {
@@ -35,7 +33,7 @@ public class Reset2 extends AppCompatActivity {
         open.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Reset2.this, Login.class);
+                Intent intent = new Intent(Reset2.this, Create.class);
                 startActivity(intent);
             }
         });

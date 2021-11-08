@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/reset_passw"
+    android:id="@+id/createpass"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
@@ -27,7 +27,7 @@
         android:layout_marginLeft="28dp"
         android:layout_marginTop="92dp"
         android:fontFamily="Rubik"
-        android:text="Reset password"
+        android:text="Create new password"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold" />
@@ -44,7 +44,7 @@
         android:textSize="12sp" />
 
     <RelativeLayout
-        android:id="@+id/input_text"
+        android:id="@+id/input_text1"
         android:layout_width="343dp"
         android:layout_height="47.98dp"
         android:layout_alignParentLeft="true"
@@ -56,47 +56,107 @@
         android:elevation="4dp">
 
         <TextView
-            android:id="@+id/email_addre"
+            android:id="@+id/pass1"
             android:layout_width="118dp"
             android:layout_height="14dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-
             android:layout_marginTop="3dp"
             android:gravity="top"
             android:lineSpacingExtra="4sp"
-            android:text="@string/email_addre"
+            android:text="Password"
             android:textAppearance="@style/email_addre"
             android:translationY="-2.1sp" />
 
         <TextView
-            android:id="@+id/gm_uit_edu_"
+            android:id="@+id/text_pass1"
             android:layout_width="174dp"
             android:layout_height="11.07dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-
             android:layout_marginTop="24dp"
             android:gravity="top"
             android:lineSpacingExtra="6sp"
-            android:text="@string/gm_uit_edu_"
+            android:text="**********************"
             android:textAppearance="@style/gm_uit_edu_"
             android:translationY="-3.14sp" />
     </RelativeLayout>
 
+    <TextView android:id="@+id/__p__must_be_at_least_8_characters"
+        android:fontFamily="Arial"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="263dp"
+        android:layout_width="248dp"
+        android:layout_height="22dp"
+        android:text="Must be at least 8 characters"
+        />
+
+    <RelativeLayout
+        android:id="@+id/input_text2"
+        android:layout_width="343dp"
+        android:layout_height="47.98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+
+        android:layout_marginTop="294dp"
+        android:background="@drawable/input_text"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/pass2"
+            android:layout_width="118dp"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="Comfirm Password"
+            android:textAppearance="@style/email_addre"
+            android:translationY="-2.1sp" />
+
+        <TextView
+            android:id="@+id/text_pass2"
+            android:layout_width="174dp"
+            android:layout_height="11.07dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="24dp"
+            android:gravity="top"
+            android:lineSpacingExtra="6sp"
+            android:text="**********************"
+            android:textAppearance="@style/gm_uit_edu_"
+            android:translationY="-3.14sp" />
+    </RelativeLayout>
+    <TextView android:id="@+id/__p__both_password_must_match"
+        android:fontFamily="Arial"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="348dp"
+        android:layout_width="248dp"
+        android:layout_height="22dp"
+        android:text="Both password must match"
+        />
+
     <Button
-        android:id="@+id/send"
+        android:id="@+id/reset"
         android:layout_width="333dp"
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="33dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="408dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="302dp"
         android:background="@drawable/button_sign"
         android:clickable="true"
-        android:text="Send Email" />
+        android:text="Reset Password" />
 </RelativeLayout>
