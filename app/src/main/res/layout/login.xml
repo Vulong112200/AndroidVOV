@@ -67,7 +67,6 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="34dp"
             android:layout_marginLeft="16dp"
-
             android:layout_marginBottom="136dp"
             android:fontFamily="Arial"
             android:text="@string/Signin_1"
