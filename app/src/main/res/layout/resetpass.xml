@@ -20,30 +20,28 @@
         android:contentDescription="vector"
         android:src="@drawable/vector" />
 
-    <TextView android:id="@+id/__p__reset_password"
-        android:fontFamily="Rubik"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal|center"
-        android:gravity="center"
-        android:textSize="28sp"
-        android:textColor="@color/white"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="92dp"
+    <TextView
+        android:id="@+id/__p__reset_password"
         android:layout_width="283dp"
         android:layout_height="53dp"
-        android:text="Reset password"
-        />
-
-    <TextView android:id="@+id/__p__enter_email_assocviated_with_your_account_and_we_ll_send_and_email_with_intructions_to_reset_your_password_"
-        android:fontFamily="Arial"
-        android:textSize="12sp"
-        android:textColor="@color/white"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="141dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="Rubik"
+        android:text="Reset password"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Resetintro"
         android:layout_width="337dp"
         android:layout_height="45dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="141dp"
+        android:fontFamily="Arial"
         android:text="Enter email assocviated with your account and we’ll send and email with intructions to reset your password."
-        />
+        android:textColor="@color/white"
+        android:textSize="12sp" />
 
     <RelativeLayout
         android:id="@+id/input_text"
@@ -89,7 +87,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button_sign"
+        android:id="@+id/send"
         android:layout_width="333dp"
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"

@@ -1,5 +1,6 @@
 package com.example.vovmusic;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,15 @@ public class Register extends AppCompatActivity {
 
         Button btn1 = (Button) findViewById(R.id.button_sign);
         ImageView back = (ImageView)  findViewById(R.id.back);
+        TextView signin = (TextView) findViewById(R.id.text_signin);
+
+        signin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Register.this, Login.class);
+                startActivity(intent);
+            }
+        });
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -230,7 +230,7 @@
             tools:layout_editor_absoluteY="528dp" />
 
         <TextView
-            android:id="@+id/text_signup"
+            android:id="@+id/text_signin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
