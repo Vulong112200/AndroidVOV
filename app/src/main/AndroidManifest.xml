@@ -20,7 +20,7 @@
         </activity>
         <activity android:name=".Login" >   </activity>
         <activity android:name=".Register">    </activity>
-        <activity android:name=".Reset">    </activity>
+        <activity android:name=".Resetpass.Reset">    </activity>
     </application>
 
 </manifest>

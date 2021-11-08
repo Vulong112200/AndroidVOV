@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reset_passw"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/backscreen"
+    >
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="22dp"
+        android:layout_height="18.8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="365dp"
+        android:layout_marginBottom="674dp"
+        android:contentDescription="vector"
+        android:src="@drawable/vector" />
+
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="128dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="519dp"
+
+        android:src="@drawable/img_message" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/Resetintro"
+        android:layout_width="305dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="293dp"
+        android:fontFamily="Arial"
+        android:text="We have sent a password recover instructions to your email"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="299dp"
+        android:background="@drawable/button_sign"
+        android:clickable="true"
+        android:text="Open email app" />
+
+    <TextView
+        android:id="@+id/__p__reset_password"
+        android:layout_width="252dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="235dp"
+        android:fontFamily="Rubik"
+        android:text="Check your mail"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="451dp"
+        android:gravity="top"
+        android:lineSpacingExtra="5sp"
+        android:text="Skip, I’ll confirm later"
+        android:textAppearance="@style/input"
+        android:translationY="-2.28sp" />
+
+</RelativeLayout>
