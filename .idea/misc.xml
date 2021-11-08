@@ -10,6 +10,8 @@
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/input_text.xml" value="0.1609375" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/login_text.xml" value="0.1609375" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/onboarding_.xml" value="0.290625" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/process.xml" value="0.1828125" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/process_ellipse.xml" value="0.1828125" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/rectangle_1.xml" value="0.290625" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/retangle_1.xml" value="0.2875" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/text.xml" value="0.290625" />
@@ -17,6 +19,8 @@
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/createpass.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/login.xml" value="0.536" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/onboarding.xml" value="0.176" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/playingmusic.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/playmusic.xml" value="0.6" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/register.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/resetpass.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/resetpass2.xml" value="0.2" />
