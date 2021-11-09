@@ -12,17 +12,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.vovmusic.R;
-import com.example.vovmusic.model.Student;
+import com.example.vovmusic.model.Song;
 
 import java.util.List;
 
-public class StudentAdapter extends RecyclerView.Adapter <StudentAdapter.ViewHolder> {
+public class SongAdapter extends RecyclerView.Adapter <SongAdapter.ViewHolder> {
     //Dữ liệu hiện thị là danh sách sinh viên
     private List mStutents;
     // Lưu Context để dễ dàng truy cập
     private Context mContext;
 
-    public StudentAdapter(List _student, Context mContext) {
+    public SongAdapter(List _student, Context mContext) {
         this.mStutents = _student;
         this.mContext = mContext;
     }
@@ -34,7 +34,7 @@ public class StudentAdapter extends RecyclerView.Adapter <StudentAdapter.ViewHol
 
         // Nạp layout cho View biểu diễn phần tử sinh viên
         View studentView =
-                inflater.inflate(R.layout.student_item, parent, false);
+                inflater.inflate(R.layout.song_item, parent, false);
 
         ViewHolder viewHolder = new ViewHolder(studentView);
         return viewHolder;
@@ -43,10 +43,10 @@ public class StudentAdapter extends RecyclerView.Adapter <StudentAdapter.ViewHol
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Student student = (Student) mStutents.get(position);
+        Song song = (Song) mStutents.get(position);
 
-        holder.studentname.setText(student.getmName());
-        holder.birthyear.setText(student.getBirthYear()+"");
+        holder.songname.setText(song.getmSongName());
+        holder.singername.setText(song.getBirthYear()+"");
 
 
     }
@@ -61,27 +61,15 @@ public class StudentAdapter extends RecyclerView.Adapter <StudentAdapter.ViewHol
      */
     public class ViewHolder extends RecyclerView.ViewHolder {
         private View itemview;
-        public TextView studentname;
-        public TextView birthyear;
-        public Button detail_button;
+        public TextView songname;
+        public TextView singername;
+
 
         public ViewHolder(View itemView) {
             super(itemView);
             itemview = itemView;
-            studentname = itemView.findViewById(R.id.studentname);
-            birthyear = itemView.findViewById(R.id.birthyear);
-            detail_button = itemView.findViewById(R.id.detail_button);
-
-            //Xử lý khi nút Chi tiết được bấm
-            detail_button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Toast.makeText(view.getContext(),
-                            studentname.getText() +" | "
-                                    + " Demo function", Toast.LENGTH_SHORT)
-                            .show();
-                }
-            });
+            songname = itemView.findViewById(R.id.studentname);
+            singername = itemView.findViewById(R.id.birthyear);
         }
     }
 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/backscreen">
+
+    <!--set background color black-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/simpleEditText"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Tìm kiếm bài hát "
+            android:padding="13dp"
+            android:textColor="@color/white"
+            android:textColorHint="#fff" />
+        <!-- Hủy -->
+
+        <TextView
+            android:id="@+id/h_y"
+            android:layout_width="67dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="237dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="19dp"
+            android:layout_toEndOf="@+id/simpleEditText"
+            android:gravity="center_vertical"
+            android:text="Hủy"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <!-- Các tìm kiếm gần đây -->
+
+    </RelativeLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/c_c_t_m_ki_"-->
+    <!--        android:layout_width="251dp"-->
+    <!--        android:layout_height="22dp"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginLeft="27dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:text="Các tìm kiếm gần đây "-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="20dp" />-->
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+
+            android:layout_height="647dp"
+            android:layout_marginTop="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/list_item_fragment" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

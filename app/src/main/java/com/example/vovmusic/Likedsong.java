@@ -1,46 +1,57 @@
 package com.example.vovmusic;
-import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.vovmusic.R;
-import com.example.vovmusic.adapter.StudentAdapter;
-import com.example.vovmusic.model.Student;
+import com.example.vovmusic.adapter.SongAdapter;
+import com.example.vovmusic.model.Song;
 
 import java.util.ArrayList;
-import java.util.List;
+
 public class Likedsong extends AppCompatActivity {
     RecyclerView recyclerView;
-    StudentAdapter adapter;
-    ArrayList<Student> students;
+    SongAdapter adapter;
+    ArrayList<Song> songs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.studentlist);
+        setContentView(R.layout.songtlist);
         recyclerView = findViewById(R.id.studentsList);
 
-        students = new ArrayList<Student>();
+        songs = new ArrayList<Song>();
         //Tự phát sinh 50 dữ liệu mẫu
         for (int i = 1; i <= 50; i++) {
-            students.add(new Student("Student Name"+i , 1995 + (i % 2)));
+            songs.add(new Song("Song Name"+i , "Ca sĩ" + (i % 2)));
         }
 
-        adapter = new StudentAdapter(students, this);
-
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-
+        adapter = new SongAdapter(songs, this);
         recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(linearLayoutManager);
+
+        int spanCount = 2;//Số cột nếu thiết lập lưới đứng, số dòng nếu lưới ngang
+        int orientation = GridLayoutManager.VERTICAL;//Lưới ngang
+        //int orientation = GridLayoutManager.HORIZONTAL;//Lưới đứng
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        gridLayoutManager.setOrientation(GridLayoutManager.VERTICAL);
+        recyclerView.setLayoutManager(gridLayoutManager);
+
+        ImageView back = (ImageView)  findViewById(R.id.back);
+
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Likedsong.this, Login.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
