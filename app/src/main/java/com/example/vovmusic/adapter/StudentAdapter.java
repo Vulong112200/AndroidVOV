@@ -16,7 +16,7 @@ import com.example.vovmusic.model.Student;
 
 import java.util.List;
 
-public abstract class StudentAdapter extends RecyclerView.Adapter {
+public class StudentAdapter extends RecyclerView.Adapter <StudentAdapter.ViewHolder> {
     //Dữ liệu hiện thị là danh sách sinh viên
     private List mStutents;
     // Lưu Context để dễ dàng truy cập

@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -36,12 +35,7 @@ public class Likedsong extends AppCompatActivity {
             students.add(new Student("Student Name"+i , 1995 + (i % 2)));
         }
 
-        adapter = new StudentAdapter(students, this) {
-            @Override
-            public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-
-            }
-        };
+        adapter = new StudentAdapter(students, this);
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
 
