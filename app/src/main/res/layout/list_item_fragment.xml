@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- This is "Fragment A"-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/img_song_search8"
+        android:layout_width="96dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="213dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recommend_music"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/song_8"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="51dp"
+        android:text="Shortwave"
+
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Suspicious0dp" />
+
+    <TextView
+        android:id="@+id/singer8"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/song_"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="50dp"
+        android:text="RYAN GRIGDRY"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Suspicious0dp,UnknownIdInLayout" />
+
+    <ImageView
+        android:id="@+id/img_song_search7"
+        android:layout_width="96dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="133dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recommend_music"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/song_7"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="50dp"
+        android:text="Shortwave"
+
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Suspicious0dp" />
+
+    <TextView
+        android:id="@+id/singer7"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/song_"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="49dp"
+        android:text="RYAN GRIGDRY"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Suspicious0dp,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/c_c_t_m_ki_"
+        android:layout_width="251dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="Các tìm kiếm gần đây "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/img_song_search"
+        android:layout_width="96dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recommend_music"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/song_"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="55dp"
+        android:text="Shortwave"
+
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Suspicious0dp" />
+
+    <TextView
+        android:id="@+id/singer"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/song_"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="53dp"
+        android:text="RYAN GRIGDRY"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Suspicious0dp,UnknownIdInLayout" />
+
+
+    <!--    <ListView-->
+<!--        android:id="@+id/lvItems"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:choiceMode="singleChoice"-->
+<!--        android:listSelector="#FFCDD2" />-->
+
+</RelativeLayout>
