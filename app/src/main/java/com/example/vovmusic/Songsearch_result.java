@@ -29,7 +29,7 @@ public class Songsearch_result extends AppCompatActivity {
             }
         });
 
-        TextView baihat = (TextView) findViewById(R.id.song_3);
+        TextView baihat = (TextView) findViewById(R.id.song_2);
         baihat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
