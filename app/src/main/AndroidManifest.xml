@@ -25,6 +25,10 @@
 
         <activity android:name=".Playmusic" >
         </activity>
+        <activity android:name=".Songsearch" >
+        </activity>
+        <activity android:name=".Songsearch_result" >
+        </activity>
         <activity android:name=".Likedsong" >
         </activity>
         <activity android:name=".Resetpass.Reset" >
@@ -32,6 +36,8 @@
         <activity android:name=".Resetpass.Reset2" >
         </activity>
         <activity android:name=".Resetpass.Create" >
+        </activity>
+        <activity android:name=".Home" >
         </activity>
     </application>
 

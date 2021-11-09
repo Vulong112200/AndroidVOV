@@ -84,16 +84,16 @@
             android:translationY="-3.14sp" />
     </RelativeLayout>
 
-    <TextView android:id="@+id/__p__must_be_at_least_8_characters"
-        android:fontFamily="Arial"
-        android:textSize="12sp"
-        android:textColor="@color/white"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="263dp"
+    <TextView
+        android:id="@+id/__p__must_be_at_least_8_characters"
         android:layout_width="248dp"
         android:layout_height="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="263dp"
+        android:fontFamily="Arial"
         android:text="Must be at least 8 characters"
-        />
+        android:textColor="@color/white"
+        android:textSize="12sp" />
 
     <RelativeLayout
         android:id="@+id/input_text2"

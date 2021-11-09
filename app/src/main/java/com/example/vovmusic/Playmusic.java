@@ -21,7 +21,7 @@ public class Playmusic extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Playmusic.this, Likedsong.class);
+                Intent intent = new Intent(Playmusic.this, Home.class);
                 startActivity(intent);
             }
         });

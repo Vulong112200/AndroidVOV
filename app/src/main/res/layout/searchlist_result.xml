@@ -1,26 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <!-- This is "Fragment A"-->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backscreen"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/backscreen">
 
-    <TextView
-        android:id="@+id/__p__c_c_t_m_ki_m_g_n___y"
-        android:layout_width="276dp"
-        android:layout_height="36dp"
-        android:layout_alignParentTop="true"
+    <!--set background color black-->
 
-        android:layout_marginLeft="27dp"
-        android:layout_marginTop="7dp"
-        android:fontFamily="Roboto"
-        android:text="Các kết quả tìm kiếm"
-        android:textColor="@color/title"
-        android:textSize="20sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/simpleEditText"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Tìm kiếm bài hát "
+            android:padding="13dp"
+            android:textColor="@color/white"
+            android:textColorHint="#fff" />
+        <!-- Hủy -->
+
+        <TextView
+            android:id="@+id/huy"
+            android:layout_width="67dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="237dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="19dp"
+            android:layout_toEndOf="@+id/simpleEditText"
+            android:gravity="center_vertical"
+            android:text="Hủy"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <!-- Các tìm kiếm gần đây -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/filter"
+            android:layout_width="158dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="Kết quả phù hợp  "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/filter2"
+            android:layout_width="75dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="187dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="Nghệ sĩ  "
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/baihat1"
@@ -29,7 +98,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="10dp"
         android:orientation="vertical">
 
         <ImageView
@@ -55,7 +124,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginStart="8dp"
             android:layout_marginTop="22dp"
-            android:layout_marginEnd="49dp"
+            android:layout_marginEnd="51dp"
             android:text="Dream On"
             android:textColor="@color/title"
             android:textSize="18dp"
@@ -92,7 +161,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical">
 
         <ImageView
@@ -104,7 +173,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="2dp"
-            android:src="@drawable/img_mimisong3"
+            android:src="@drawable/img_mimisong2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
 
@@ -155,7 +224,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="-2dp"
-        android:layout_marginTop="278dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical">
 
         <ImageView
@@ -164,10 +233,10 @@
             android:layout_height="91dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="20dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/img_mimisong3"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/img_minisong1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
 
@@ -182,7 +251,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="22dp"
             android:layout_marginEnd="49dp"
-            android:text="Dream On"
+            android:text="Muộn Rồi Mà Sao Còn"
             android:textColor="@color/title"
             android:textSize="18dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -218,7 +287,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="174dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical">
 
         <ImageView
@@ -230,7 +299,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="2dp"
-            android:src="@drawable/img_mimisong3"
+            android:src="@drawable/img_mimisong4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
 
@@ -274,4 +343,5 @@
             tools:ignore="Suspicious0dp,UnknownIdInLayout" />
     </RelativeLayout>
 
-</RelativeLayout>
+
+</LinearLayout>

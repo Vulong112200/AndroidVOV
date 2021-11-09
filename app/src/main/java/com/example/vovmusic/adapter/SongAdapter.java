@@ -4,9 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -34,7 +32,7 @@ public class SongAdapter extends RecyclerView.Adapter <SongAdapter.ViewHolder> {
 
         // Nạp layout cho View biểu diễn phần tử sinh viên
         View studentView =
-                inflater.inflate(R.layout.song_item, parent, false);
+                inflater.inflate(R.layout.song_item2, parent, false);
 
         ViewHolder viewHolder = new ViewHolder(studentView);
         return viewHolder;

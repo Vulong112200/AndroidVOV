@@ -48,7 +48,7 @@ public class Likedsong extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Likedsong.this, Login.class);
+                Intent intent = new Intent(Likedsong.this, Home.class);
                 startActivity(intent);
             }
         });

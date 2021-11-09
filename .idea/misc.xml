@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1609375" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/border.xml" value="0.1" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/button_sign.xml" value="0.290625" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/duongvien.xml" value="0.1609375" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/edittext_bg.xml" value="0.2046875" />
@@ -23,7 +24,8 @@
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/content_main.xml" value="0.18854166666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/createpass.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/fragment_slideshow.xml" value="0.1671875" />
-        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/list_item_fragment.xml" value="0.5780525502318392" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/home.xml" value="0.1671875" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/list_item_fragment.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/login.xml" value="0.536" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/onboarding.xml" value="0.176" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/playingmusic.xml" value="0.16979166666666667" />
@@ -32,8 +34,11 @@
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/resetpass.xml" value="0.72" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/resetpass2.xml" value="0.2" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/search.xml" value="0.2713541666666667" />
-        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/searchlist.xml" value="0.264" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/search_details_fragment.xml" value="0.1671875" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/searchlist.xml" value="0.152" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/searchlist_result.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/searchrecommend_item.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/song_category.xml" value="0.1703125" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/song_item.xml" value="0.2713541666666667" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/song_item2.xml" value="0.2" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/songtlist.xml" value="0.264" />
