@@ -143,7 +143,7 @@
            <androidx.recyclerview.widget.RecyclerView
                android:id="@+id/studentsList"
                android:layout_width="406dp"
-               android:layout_height="496dp"
+               android:layout_height="500dp"
                android:layout_marginLeft="5dp"
                android:layout_marginTop="150dp"
                android:layout_marginRight="5dp">

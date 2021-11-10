@@ -57,7 +57,7 @@ public class Home extends AppCompatActivity {
     ImageView menu = (ImageView) findViewById(R.id.btn_menu);
         menu.setOnClickListener(new Button.OnClickListener() {
         public void onClick(View v) {
-            Intent intent = new Intent(Home.this, Navigation.class);
+            Intent intent = new Intent(Home.this, Login.class);
             startActivity(intent);
         }
         ;
