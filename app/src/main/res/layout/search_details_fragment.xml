@@ -222,6 +222,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
 
+
             android:background="@drawable/onboarding_"
             android:gravity="center_vertical"
             android:text="Kết quả phù hợp  "

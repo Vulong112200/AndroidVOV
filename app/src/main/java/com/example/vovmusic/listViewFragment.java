@@ -24,7 +24,6 @@ public class listViewFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
 
-
     }
 
     @Override

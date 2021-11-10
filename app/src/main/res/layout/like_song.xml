@@ -12,7 +12,7 @@
         android:layout_height="57dp">
 
         <ImageView
-            android:id="@+id/btn_search"
+            android:id="@+id/btn_search_liked"
             android:layout_width="51dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -74,9 +74,9 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerview"
                 android:layout_width="match_parent"
-
                 android:layout_height="647dp"
                 android:layout_marginTop="5dp"
+                android:scrollbars="vertical"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:listitem="@layout/list_liked_songs_fragment" />
 
