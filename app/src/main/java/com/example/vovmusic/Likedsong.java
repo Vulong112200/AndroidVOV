@@ -1,7 +1,9 @@
 package com.example.vovmusic;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -43,7 +45,6 @@ public class Likedsong extends AppCompatActivity {
         recyclerView.setLayoutManager(gridLayoutManager);
 
         ImageView back = (ImageView)  findViewById(R.id.back);
-
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
