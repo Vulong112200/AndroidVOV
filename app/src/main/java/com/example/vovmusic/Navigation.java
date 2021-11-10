@@ -35,8 +35,8 @@ public class Navigation extends AppCompatActivity{
     private void actionToolBar(){
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        toolbar.setNavigationOnClickListener(new View.OnClickListener(){
+        toolbar.setNavigationIcon(R.drawable.btn_home);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 drawerlayout.openDrawer(GravityCompat.START);

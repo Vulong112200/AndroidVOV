@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,13 +36,22 @@ public class Home extends AppCompatActivity {
         categoryAdapter.setData(getListCategory());
         rcvCategory.setAdapter(categoryAdapter);
 
+        TextView likedsong = (TextView) findViewById(R.id.likedsong);
+
+        likedsong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Likedsong.class);
+                startActivity(intent);
+            }
+        });
         ImageView searchSongItemClick = (ImageView) findViewById(R.id.btn_search);
         searchSongItemClick.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(Home.this, Songsearch.class);
                 startActivity(intent);
             }
-            ;
+
         });
 
     ImageView menu = (ImageView) findViewById(R.id.btn_menu);
