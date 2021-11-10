@@ -43,5 +43,10 @@ dependencies {
     // recycle view
     //noinspection GradleCompatible
     implementation 'com.android.support:design:29.0.1'
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+    //card view
+    implementation "androidx.cardview:cardview:1.0.0"
+
 
 }
