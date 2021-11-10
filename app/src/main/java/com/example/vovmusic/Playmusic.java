@@ -26,5 +26,16 @@ public class Playmusic extends AppCompatActivity {
             }
         });
 
+        ImageView pause = (ImageView)  findViewById(R.id.pause);
+
+
+        pause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Playmusic.this, Navigation.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

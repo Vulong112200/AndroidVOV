@@ -40,11 +40,19 @@ public class Home extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Home.this, Songsearch.class);
                 startActivity(intent);
-
             }
             ;
         });
-    }
+
+    ImageView menu = (ImageView) findViewById(R.id.btn_menu);
+        menu.setOnClickListener(new Button.OnClickListener() {
+        public void onClick(View v) {
+            Intent intent = new Intent(Home.this, Navigation.class);
+            startActivity(intent);
+        }
+        ;
+    });
+}
 
     private List<Category> getListCategory(){
         List<Category> listCategory= new ArrayList<>();
