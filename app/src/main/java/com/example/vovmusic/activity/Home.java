@@ -159,12 +159,18 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.monan_yeuthich:
+            case R.id.chaosup:
                 Intent monanyeuthich=new Intent(Home.this,Playmusic.class);
                 monanyeuthich.putExtra("UserID",""+userid);
                 startActivity(monanyeuthich);
                 Log.i("chk", "mon an yeu thich");
                 break;
+           // case R.id.monxao:
+              //  Intent setting=new Intent(Home.this,Playmusic.class);
+             //   setting.putExtra("UserID",""+userid);
+             //   startActivity(setting);
+              //  Log.i("chk", "mon an yeu thich");
+              //  break;
             case R.id.monan_thuongngay:
                 Intent intent1 = new Intent(Home.this, Likedsong.class);
                 intent1.putExtra("TenLoaiMon", "Bữa ăn thường ngày");

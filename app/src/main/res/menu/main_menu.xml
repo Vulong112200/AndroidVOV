@@ -12,35 +12,22 @@
             android:title="Thực đơn"
             />
     </group>
-    <item android:title="Danh sách món ăn">
+    <item android:title="Chức năng">
         <menu>
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/monan_thuongngay"
-                    android:title="Bữa ăn thường ngày"/>
+                    android:title="LikedSong"/>
                 <item
                     android:id="@+id/chaosup"
-                    android:title="Cháo/súp"/>
+                    android:title="Profile"/>
                 <item
                     android:id="@+id/monxao"
-                    android:title="Các món xào"/>
-                <item
-                    android:id="@+id/monnuong"
-                    android:title="Các món nướng"/>
-                <item
-                    android:id="@+id/trangmieng"
-                    android:title="Món tráng miệng"/>
+                    android:title="Setting"/>
+
             </group>
         </menu>
     </item>
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/anchay"
-            android:title="Món ăn chay"/>
-        <item
-            android:id="@+id/giamcan"
-            android:title="Giảm cân"/>
-    </group>
     <item android:title="Khác">
         <menu>
             <group android:checkableBehavior="single">
