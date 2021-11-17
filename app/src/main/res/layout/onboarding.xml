@@ -62,8 +62,8 @@
         android:layout_marginTop="529dp"
         android:layout_marginEnd="66dp"
         android:background="@drawable/button_sign"
-        android:text="Sign Up Free"
         android:clickable="true"
+        android:text="Sign Up Free"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="528dp" />
 
@@ -77,10 +77,10 @@
         android:layout_marginLeft="184dp"
         android:layout_marginTop="612dp"
         android:layout_marginEnd="177dp"
+        android:clickable="true"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="5sp"
         android:text="Log In"
-        android:clickable="true"
         android:textColor="@color/white"
         android:translationY="-2.28sp" />
 </RelativeLayout>

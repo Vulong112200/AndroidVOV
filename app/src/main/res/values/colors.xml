@@ -10,4 +10,19 @@
     <color name="title">#EAF0FF</color>
     <color name="sub_title">#A5C0FF</color>
     <color name="main_color">#091227</color>
+    <color name="header_background">#faf8b4</color>
+    <color name="color_basic">#fffcab</color>
+    <color name="colorAccent">#c5c96b</color>
+    <color name="color_btn">#e0e0b1</color>
+    <color name="color_nonselect_bottomnav">#5a5e19</color>
+    <color name="color_select_bottomnav">#7ee689</color>
+    <color name="color_tv_monan_item">#ffe9ab</color>
+    <color name="color_tv_loaimon_monan_item">#f7f2c8</color>
+    <color name="color_text_Btn">#5f630b</color>
+    <color name="color_homnayangi_bg">#f0edb1</color>
+    <color name="color_text">#727535</color>
+    <color name="colorGrey">#dddddd</color>
+    <color name="color_tips_01">#33000000</color>
+    <color name="red">#d42222</color>
+    <color name="orange">#ff8c00</color>
 </resources>

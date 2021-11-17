@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.VOVMusic" >
+        android:theme="@style/Theme.VOVMusic.NoActionBar" >
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,28 +18,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" >
+        <activity android:name=".activity.Login" >
         </activity>
-        <activity android:name=".Register" >
-        </activity>
+        <activity android:name=".activity.Register" > </activity>
+        <activity android:name=".activity.ChinhSach" > </activity>
+        <activity android:name=".activity.GioiThieu" > </activity>
 
-        <activity android:name=".Playmusic" >
+        <activity android:name=".activity.Playmusic" >
         </activity>
-        <activity android:name=".Songsearch" >
+        <activity android:name=".activity.Songsearch" >
         </activity>
-        <activity android:name=".Songsearch_result" >
+        <activity android:name=".activity.Songsearch_result" >
         </activity>
-        <activity android:name=".Likedsong" >
+        <activity android:name=".activity.Likedsong" >
         </activity>
-        <activity android:name=".Resetpass.Reset" >
+        <activity android:name=".activity.Resetpass.Reset" >
         </activity>
-        <activity android:name=".Resetpass.Reset2" >
+        <activity android:name=".activity.Resetpass.Reset2" >
         </activity>
-        <activity android:name=".Resetpass.Create" >
+        <activity android:name=".activity.Resetpass.Create" >
         </activity>
-        <activity android:name=".Home" >
+        <activity android:name=".activity.Home" >
         </activity>
-        <activity android:name=".Navigation" >
+        <activity android:name=".activity.Navigation" >
         </activity>
     </application>
 
