@@ -22,11 +22,10 @@
         >
 
 
-
         <ImageView
             android:id="@+id/rectangle_16"
             android:layout_width="415dp"
-            android:layout_height="429dp"
+            android:layout_height="match_parent"
             android:layout_marginStart="2dp"
             android:layout_marginTop="0dp"
             android:contentDescription="rectangle_16"
@@ -45,44 +44,44 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/__p__sign_in"
-            android:layout_width="171dp"
-            android:layout_height="61dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="36dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginBottom="191dp"
-            android:fontFamily="Arial"
-            android:text="Sign Up"
-            android:textColor="@color/white"
-            android:textSize="28sp"
-            android:textStyle="bold" />
-
-        <TextView
             android:id="@+id/__p__welcome_back_to_tunify__it_s_time_to_listen_to_the_music_you_want_and_enjoy_the_music_"
             android:layout_width="345dp"
             android:layout_height="61dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="34dp"
+            android:layout_marginStart="36dp"
             android:layout_marginLeft="16dp"
 
-            android:layout_marginBottom="136dp"
+            android:layout_marginBottom="35dp"
             android:fontFamily="Arial"
             android:text="@string/Signup_1"
             android:textColor="@color/white"
             android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/__p__sign_in"
+            android:layout_width="171dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="90dp"
+            android:fontFamily="Arial"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/login_text"
-        android:layout_width="match_parent"
-        android:layout_height="335dp"
+        android:layout_width="wrap_content"
+        android:layout_height="371dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="396dp"
+        android:layout_marginTop="496dp"
         android:background="@drawable/duongvien">
 
         <RelativeLayout
@@ -112,8 +111,8 @@
                 android:textAppearance="@style/email_addre"
                 android:translationY="-2.1sp" />
 
-            <TextView
-                android:id="@+id/gm_uit_edu_2"
+            <EditText
+                android:id="@+id/fullname"
                 android:layout_width="174dp"
                 android:layout_height="11.07dp"
                 android:layout_alignParentLeft="true"
@@ -122,7 +121,6 @@
                 android:layout_marginTop="24dp"
                 android:gravity="top"
                 android:lineSpacingExtra="6sp"
-                android:text="Kiều Oanh"
                 android:textAppearance="@style/gm_uit_edu_"
                 android:translationY="-3.14sp" />
         </RelativeLayout>
@@ -154,7 +152,7 @@
                 android:textAppearance="@style/email_addre"
                 android:translationY="-2.1sp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/gm_uit_edu_"
                 android:layout_width="174dp"
                 android:layout_height="11.07dp"
@@ -165,7 +163,6 @@
                 android:layout_marginTop="24dp"
                 android:gravity="top"
                 android:lineSpacingExtra="6sp"
-                android:text="@string/gm_uit_edu_"
                 android:textAppearance="@style/gm_uit_edu_"
                 android:translationY="-3.14sp" />
         </RelativeLayout>
