@@ -7,6 +7,7 @@
     tools:context=".activity.MainActivity"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
+    android:background="@drawable/backscreen"
     android:id="@+id/main_draw">
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
@@ -23,13 +24,13 @@
             android:id="@+id/main_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/color_basic"
+            android:background="@color/main_color"
             app:menu="@menu/menu_navbar_top"
             app:navigationIcon="@drawable/btn_home" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="661dp"
+            android:layout_height="774dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="0dp">

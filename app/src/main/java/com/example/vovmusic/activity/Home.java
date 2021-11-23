@@ -49,8 +49,6 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         setContentView(R.layout.activity_main);
-        nav_bottom = findViewById(R.id.nav_bottom);
-        main_viewpager = findViewById(R.id.main_viewpager);
         main_drawerlayout = findViewById(R.id.main_draw);
         toolbar = findViewById(R.id.main_toolbar);
         main_menu = findViewById(R.id.nav_main_view);
@@ -94,25 +92,6 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         main_drawerlayout.addDrawerListener(main_toggle);
         main_toggle.syncState();
         main_menu.setNavigationItemSelectedListener(this);
-
-        //nav botton
-        nav_bottom.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.action_home:
-                        main_viewpager.setCurrentItem(0);
-                        break;
-                    case R.id.action_market:
-                        main_viewpager.setCurrentItem(1);
-                        break;
-                    case R.id.action_tips:
-                        main_viewpager.setCurrentItem(2);
-                        break;
-                }
-                return true;
-            }
-        });
 
     }
 

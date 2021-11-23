@@ -15,7 +15,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="-6dp"
-        android:layout_marginTop="-5dp"
+        android:layout_marginTop="0dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_below="@id/login_text"
@@ -81,7 +81,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="2dp"
-        android:layout_marginTop="477dp"
+        android:layout_marginTop="479dp"
         android:background="@drawable/duongvien">
 
         <RelativeLayout
@@ -217,8 +217,8 @@
             android:layout_height="45dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginTop="284dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="226dp"
             android:background="@drawable/button_sign"
             android:clickable="true"
             android:text="Sign up" />
@@ -227,25 +227,26 @@
             android:id="@+id/text_signin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginLeft="232dp"
-            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginLeft="242dp"
+            android:layout_marginTop="289dp"
             android:gravity="top"
             android:lineSpacingExtra="5sp"
             android:text="Sign In"
-            android:textAppearance="@style/input"
-            android:translationY="-2.28sp" />
+            android:textAppearance="@style/input" />
 
         <TextView
             android:id="@+id/you_have_ac"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginLeft="112dp"
+            android:layout_alignParentTop="true"
 
-            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="290dp"
             android:gravity="top"
             android:lineSpacingExtra="5sp"
             android:text="You have account?"
