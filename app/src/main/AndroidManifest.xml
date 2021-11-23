@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vovmusic" >
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -43,6 +43,8 @@
         <activity android:name=".activity.DangNhapActivity" >
         </activity>
         <activity android:name=".activity.Navigation" >
+        </activity>
+        <activity android:name=".activity.LoginActivity" >
         </activity>
     </application>
 

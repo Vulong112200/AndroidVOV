@@ -6,14 +6,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.vovmusic.R;
-import com.example.vovmusic.activity.Resetpass.Reset;
 import com.example.vovmusic.model.User;
 import com.example.vovmusic.service.Api;
 
@@ -23,10 +20,8 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import com.example.vovmusic.model.User;
-import com.example.vovmusic.service.Api;
 
-public class Login extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     private EditText email_login;
     private EditText password_login;
@@ -39,43 +34,11 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        TextView signup = (TextView) findViewById(R.id.text_signup);
-        TextView forgot = (TextView) findViewById(R.id.text_forgotpass);
-        ImageView back = (ImageView)  findViewById(R.id.back);
-
-
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Login.this, Register.class);
-                startActivity(intent);
-            }
-        });
-
-        forgot.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Login.this, Reset.class);
-                startActivity(intent);
-                Log.d("Login", "onRestart - Màn hình chính được khởi tạo lại.");
-            }
-        });
-
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Login.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
-
         email_login=(EditText) findViewById(R.id.dnhap_username);
         password_login=(EditText) findViewById(R.id.dnhap_pass);
         btnlogin=(Button) findViewById(R.id.button_sign);
 
         mListUser=new ArrayList<>();
-
         getListUsers();
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,11 +64,11 @@ public class Login extends AppCompatActivity {
             }
         }
         if(isHasUser){
-            Intent intent =new Intent(Login.this, Home.class);
+            Intent intent =new Intent(LoginActivity.this,Home.class);
             startActivity(intent);
         }
         else{
-            Toast.makeText(Login.this,"Email or password invalid",Toast.LENGTH_SHORT).show();
+            Toast.makeText(LoginActivity.this,"Email or password invalid",Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -121,9 +84,10 @@ public class Login extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<List<User>> call, Throwable t) {
-                        Toast.makeText(Login.this,"Call api error",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this,"Call api error",Toast.LENGTH_SHORT).show();
                     }
                 });
     }
-    
+
+
 }

@@ -54,6 +54,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         main_drawerlayout = findViewById(R.id.main_draw);
         toolbar = findViewById(R.id.main_toolbar);
         main_menu = findViewById(R.id.nav_main_view);
+
         rcvCategory= findViewById(R.id.recyclerview_category);
         categoryAdapter= new CategoryAdapter(this);
 

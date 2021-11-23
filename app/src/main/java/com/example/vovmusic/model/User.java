@@ -30,7 +30,7 @@ public class User {
     public String getMail() {
         return email;
     }
-
-
-
+    public String getPass() {
+        return password;
+    }
 }

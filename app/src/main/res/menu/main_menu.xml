@@ -37,6 +37,9 @@
                 <item
                     android:id="@+id/chinhsach"
                     android:title="Chính sách và quyền riêng tư"/>
+                <item
+                    android:id="@+id/logout"
+                    android:title="Chính sách và quyền riêng tư"/>
             </group>
         </menu>
     </item>

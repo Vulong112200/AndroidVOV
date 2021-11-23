@@ -21,6 +21,22 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 import java.io.UnsupportedEncodingException;
 
 import cz.msebera.android.httpclient.Header;
@@ -37,8 +53,8 @@ public class DangNhapActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
-        tv_dnhap_pass = findViewById(R.id.dnhap_username);
-        tv_dnhap_username = findViewById(R.id.dnhap_pass);
+        tv_dnhap_username = findViewById(R.id.dnhap_username);
+        tv_dnhap_pass = findViewById(R.id.dnhap_pass);
         btn_dnhap = findViewById(R.id.button_sign);
         btn_dky = findViewById(R.id.text_signup);
         layout_dnhap_pass = findViewById(R.id.layout_password);
