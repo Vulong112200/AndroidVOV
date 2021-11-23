@@ -8,17 +8,17 @@
     android:background="@drawable/backscreen"
     >
 
+
     <ImageView
         android:id="@+id/back"
         android:layout_width="22dp"
         android:layout_height="18.8dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="365dp"
-        android:layout_marginBottom="674dp"
+        android:layout_marginEnd="361dp"
+        android:layout_marginBottom="788dp"
         android:contentDescription="vector"
         android:src="@drawable/vector" />
-
 
     <ImageView
         android:id="@+id/message"
@@ -27,7 +27,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="144dp"
-        android:layout_marginBottom="519dp"
+        android:layout_marginBottom="657dp"
 
         android:src="@drawable/img_message" />
 
@@ -39,7 +39,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="53dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="293dp"
+        android:layout_marginTop="287dp"
         android:fontFamily="Arial"
         android:text="We have sent a password recover instructions to your email"
         android:textAlignment="center"
@@ -53,9 +53,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="83dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="299dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="447dp"
         android:background="@drawable/button_sign"
         android:clickable="true"
         android:text="Open email app" />
@@ -82,7 +82,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="142dp"
-        android:layout_marginTop="451dp"
+        android:layout_marginTop="434dp"
         android:gravity="top"
         android:lineSpacingExtra="5sp"
         android:text="Skip, I’ll confirm later"

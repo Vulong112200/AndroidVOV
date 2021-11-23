@@ -29,8 +29,6 @@ import cz.msebera.android.httpclient.entity.StringEntity;
 public class DangNhapActivity extends AppCompatActivity {
     TextInputEditText tv_dnhap_username;
     TextInputEditText tv_dnhap_pass;
-    TextInputLayout layout_dnhap_username;
-    TextInputLayout layout_dnhap_pass;
     Button btn_dnhap;
     TextView btn_dky;
 
