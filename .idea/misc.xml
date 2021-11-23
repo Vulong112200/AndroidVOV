@@ -6,6 +6,7 @@
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1609375" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/backscreen.xml" value="0.290625" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/bg_tinhnang.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/bg_warning.xml" value="0.18355263157894736" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/border.xml" value="0.1" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/button_sign.xml" value="0.290625" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/drawable/duongvien.xml" value="0.1609375" />
@@ -32,16 +33,16 @@
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/font/itim.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/font/merriweather.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/font/patrick_hand.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/chinhsach.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/content_main.xml" value="0.18854166666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/createpass.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/fragment_slideshow.xml" value="0.1671875" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/gioithieu.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/header.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/home.xml" value="0.136" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/home.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/list_item_fragment.xml" value="0.264" />
-        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/login.xml" value="0.176" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/login.xml" value="0.264" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/navigation.xml" value="0.152" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/onboarding.xml" value="0.136" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/layout/playingmusic.xml" value="0.16979166666666667" />
@@ -65,7 +66,7 @@
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/menu/main_activity2.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/menu/main_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/menu/menu_bottom.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/menu/menu_navbar_top.xml" value="0.19375" />
+        <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/menu/menu_navbar_top.xml" value="0.16" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/menu/tips_chitiet_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1609375" />
         <entry key="..\:/Users/vu/AndroidStudioProjects/VOVMusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1609375" />

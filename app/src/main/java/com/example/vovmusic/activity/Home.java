@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.util.Log;
@@ -52,13 +54,21 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         main_drawerlayout = findViewById(R.id.main_draw);
         toolbar = findViewById(R.id.main_toolbar);
         main_menu = findViewById(R.id.nav_main_view);
+        rcvCategory= findViewById(R.id.recyclerview_category);
+        categoryAdapter= new CategoryAdapter(this);
 
+        LinearLayoutManager linearLayoutManager= new LinearLayoutManager(this, RecyclerView.VERTICAL,false);
+        rcvCategory.setLayoutManager(linearLayoutManager);
+
+        categoryAdapter.setData(getListCategory());
+        rcvCategory.setAdapter(categoryAdapter);
 
         if (userid != null) {
             Menu menu_user = toolbar.getMenu();
             menu_user.setGroupVisible(R.id.da_dnhap, true);
             menu_user.findItem(R.id.dnhap_btn).setVisible(false);
             toolbar.setTitle(R.string.app_name);
+            toolbar.setTitleTextColor(Color.WHITE);
             toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
                 @Override
                 public boolean onMenuItemClick(MenuItem item) {
@@ -185,8 +195,6 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         listSong.add(new Song(R.drawable.my_playlist_2,"Name Song","Name Singer"));
         listSong.add(new Song(R.drawable.img_song3,"Name Song","Name Singer"));
         listSong.add(new Song(R.drawable.recommend_music2,"Name Song","Name Singer"));
-
-
 
         listCategory.add(new Category("Recommended for you",listSong));
         listCategory.add(new Category("My PLayList",listSong));

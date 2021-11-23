@@ -40,6 +40,8 @@
         </activity>
         <activity android:name=".activity.Home" >
         </activity>
+        <activity android:name=".activity.DangNhapActivity" >
+        </activity>
         <activity android:name=".activity.Navigation" >
         </activity>
     </application>
