@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VOVMusic.NoActionBar" >
         <activity
-            android:name="RecommendSong.MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +28,10 @@
         <activity android:name=".activity.Songsearch" >
         </activity>
         <activity android:name=".activity.Songsearch_result" >
+        </activity>
+        <activity android:name="RecommendSong.MainActivity">
+        </activity>
+        <activity android:name="LikedSong.MainActivity">
         </activity>
         <activity android:name=".activity.Likedsong" >
         </activity>

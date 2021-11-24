@@ -61,7 +61,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         LinearLayoutManager linearLayoutManager= new LinearLayoutManager(this, RecyclerView.VERTICAL,false);
         rcvCategory.setLayoutManager(linearLayoutManager);
 
-        categoryAdapter.setData(getListCategory());
+//        categoryAdapter.setData(getListCategory());
         rcvCategory.setAdapter(categoryAdapter);
 
         if (userid != null) {
@@ -184,25 +184,25 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
 
 
 
-    private List<Category> getListCategory(){
-        List<Category> listCategory= new ArrayList<>();
-
-        List <Song> listSong = new ArrayList<>();
-
-        listSong.add(new Song(R.drawable.recommend_music2,"Name Song","Name Singer"));
-        listSong.add(new Song(R.drawable.recommend_music,"Name Song","Name Singer"));
-        listSong.add(new Song(R.drawable.img_song1,"Name Song","Name Singer"));
-        listSong.add(new Song(R.drawable.myplaylist_1,"Name Song","Name Singer"));
-        listSong.add(new Song(R.drawable.my_playlist_2,"Name Song","Name Singer"));
-        listSong.add(new Song(R.drawable.img_song3,"Name Song","Name Singer"));
-        listSong.add(new Song(R.drawable.recommend_music2,"Name Song","Name Singer"));
-
-        listCategory.add(new Category("Recommended for you",listSong));
-        listCategory.add(new Category("My PLayList",listSong));
-        listCategory.add(new Category("Liked Song",listSong));
-        listCategory.add(new Category("Popular",listSong));
-        listCategory.add(new Category("Category",listSong));
-        return listCategory;
-    };
+//    private List<Category> getListCategory(){
+//        List<Category> listCategory= new ArrayList<>();
+//
+//        List <Song> listSong = new ArrayList<>();
+//
+//        listSong.add(new Song(R.drawable.recommend_music2,"Name Song","Name Singer"));
+//        listSong.add(new Song(R.drawable.recommend_music,"Name Song","Name Singer"));
+//        listSong.add(new Song(R.drawable.img_song1,"Name Song","Name Singer"));
+//        listSong.add(new Song(R.drawable.myplaylist_1,"Name Song","Name Singer"));
+//        listSong.add(new Song(R.drawable.my_playlist_2,"Name Song","Name Singer"));
+//        listSong.add(new Song(R.drawable.img_song3,"Name Song","Name Singer"));
+//        listSong.add(new Song(R.drawable.recommend_music2,"Name Song","Name Singer"));
+//
+//        listCategory.add(new Category("Recommended for you",listSong));
+//        listCategory.add(new Category("My PLayList",listSong));
+//        listCategory.add(new Category("Liked Song",listSong));
+//        listCategory.add(new Category("Popular",listSong));
+//        listCategory.add(new Category("Category",listSong));
+//        return listCategory;
+//    };
 
 }

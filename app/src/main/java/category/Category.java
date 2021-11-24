@@ -2,7 +2,7 @@ package category;
 
 import java.util.List;
 
-import song.Song;
+import RecommendSong.Song;
 
 public class Category {
     private  String nameCategory;

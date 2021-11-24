@@ -27,13 +27,17 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         this.inflater = LayoutInflater.from(ctx);
         this.songs = songs;
     }
+    public void setData(List<Song> list) {
+        this.songs = list;
+        notifyDataSetChanged();
+    }
 
 
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = inflater.inflate(R.layout.song_item_layout2,parent,false);
+        View view = inflater.inflate(R.layout.song_item_layout,parent,false);
         return new ViewHolder(view);
     }
 

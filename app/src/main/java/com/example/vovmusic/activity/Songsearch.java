@@ -20,7 +20,7 @@ public class Songsearch extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Songsearch.this, Home.class);
+                Intent intent = new Intent(Songsearch.this, RecommendSong.MainActivity.class);
                 startActivity(intent);
             }
         });

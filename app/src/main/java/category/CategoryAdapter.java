@@ -10,16 +10,19 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.example.vovmusic.R;
 
 import java.util.List;
 
-import song.songAdapter;
+import RecommendSong.Adapter;
+import RecommendSong.Song;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder> {
 
     private Context context;
     private List<Category> mListCategory;
+    List<Song> songs;
 
     public CategoryAdapter(Context context) {
         this.context = context;
@@ -42,7 +45,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
 
     @Override
     public void onBindViewHolder(@NonNull CategoryViewHolder holder, int position) {
-       Category category = mListCategory.get(position);
+        Category category = mListCategory.get(position);
         if(category == null) {
             return;
         };
@@ -52,7 +55,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
         LinearLayoutManager linearLayoutManager=new LinearLayoutManager(context,RecyclerView.HORIZONTAL,false);
         holder.rcvSong.setLayoutManager(linearLayoutManager);
 
-        songAdapter songAdapter= new songAdapter();
+        Adapter songAdapter= new Adapter(context,songs);
         songAdapter.setData(category.getSongs());
         holder.rcvSong.setAdapter(songAdapter);
     }
@@ -68,16 +71,15 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
 
     public class CategoryViewHolder extends RecyclerView.ViewHolder {
 
-       private TextView tvNameCategory;
-       private RecyclerView rcvSong;
+        private TextView tvNameCategory;
+        private RecyclerView rcvSong;
 
-       public CategoryViewHolder(@NonNull View itemView) {
-           super(itemView);
+        public CategoryViewHolder(@NonNull View itemView) {
+            super(itemView);
 
+            tvNameCategory =itemView.findViewById(R.id.tv_recommended);
+            rcvSong = itemView.findViewById(R.id.recyclerview_recommend);
 
-           tvNameCategory =itemView.findViewById(R.id.tv_recommended);
-           rcvSong = itemView.findViewById(R.id.recyclerview_recommend);
-
-       }
-   }
+        }
+    }
 }

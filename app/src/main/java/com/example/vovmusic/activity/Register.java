@@ -32,7 +32,7 @@ public class Register extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Register.this, Login.class);
+                Intent intent = new Intent(Register.this, RecommendSong.MainActivity.class);
                 startActivity(intent);
             }
         });
